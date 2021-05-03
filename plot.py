@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 plt.rcParams["font.family"] = 'Sans'
 
-plt.grid(color='#2A3459',linewidth=0.1)  # bluish dark grey, but slightly lighter than background
+plt.grid(color='#2A3459',linewidth=0.1)
 
 def read_col(fname, col, convert=int, sep=None):
     with open(fname) as fobj:
